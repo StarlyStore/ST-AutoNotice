@@ -10,7 +10,8 @@ messages:
       - "/자동공지 생성 <공지 이름>" # starly.notice.create
       - "/자동공지 제거 <공지 이름>" # starly.notice.remove
       - "/자동공지 활성여부 <공지 이름>" # starly.notice.toggle
-      - "/자동공지 내용수정 <공지 이름> <내용>" # starly.notice.edit
+      - "/자동공지 내용수정 <공지 이름> <내용>" # starly.notice.edit.contents
+      - "/자동공지 시간설정 <공지 이름> <시간>" # starly.notice.edit.time
 
     # 생성
     create: "공지 {name} 을/를 생성했습니다."
