@@ -1,14 +1,18 @@
-name: ST-BoilerPlate # TODO: 수정
-main: net.starly.boilerplate.BoilerPlateMain # TODO: 수정
+name: ST-AutoNotice
+main: net.starly.autonotice.AutoNoticeMain
 author: Starly Team
 website: http://starly.kr/discord
 
-description: BoilerPlate Plugin. # TODO: 수정
+description: AutoNotice Plugin.
 
 softdepend:
   - ST-Core
 
-version: 1.0
+version: 1.0.0_Alpha
 api-version: 1.13
 
 commands:
+  notice:
+    aliases: ["공지"]
+  autonotice:
+    aliases: ["자동공지"]
