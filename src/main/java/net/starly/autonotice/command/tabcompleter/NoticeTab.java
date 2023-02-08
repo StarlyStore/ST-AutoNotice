@@ -11,7 +11,7 @@ public class NoticeTab implements TabCompleter {
     @Override
     public List<String> onTabComplete(CommandSender sender, Command command, String label, String[] args) {
 
-        if (args.length == 1) {
+        if (args.length >= 1) {
             return Collections.singletonList("<공지 내용>");
         }
 
